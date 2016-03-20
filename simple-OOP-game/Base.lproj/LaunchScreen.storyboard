@@ -1,61 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
     </dependencies>
-    <scenes>
-        <!--View Controller-->
-        <scene sceneID="EHf-IW-A2E">
-            <objects>
-                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
-                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="eka-Dr-IFg">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ground" translatesAutoresizingMaskIntoConstraints="NO" id="QXn-nj-m6C">
-                                <rect key="frame" x="0.0" y="529" width="600" height="71"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="71" id="TY2-MS-Ms8"/>
-                                </constraints>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="player" translatesAutoresizingMaskIntoConstraints="NO" id="Acs-bX-j19">
-                                <rect key="frame" x="10" y="295" width="227" height="236"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="227" id="Kvw-Sa-Cba"/>
-                                    <constraint firstAttribute="height" constant="236" id="c4x-To-JQX"/>
-                                </constraints>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="eka-Dr-IFg" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="0p0-ye-JgL"/>
-                            <constraint firstItem="eka-Dr-IFg" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="8OH-tx-HSG"/>
-                            <constraint firstAttribute="trailing" secondItem="eka-Dr-IFg" secondAttribute="trailing" id="Vpy-3h-RXo"/>
-                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="Acs-bX-j19" secondAttribute="bottom" constant="69" id="aFj-az-ZDp"/>
-                            <constraint firstItem="QXn-nj-m6C" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="cqj-hU-hJA"/>
-                            <constraint firstAttribute="trailing" secondItem="QXn-nj-m6C" secondAttribute="trailing" id="iuc-mC-aRL"/>
-                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="eka-Dr-IFg" secondAttribute="bottom" id="ivp-dq-BTP"/>
-                            <constraint firstItem="Acs-bX-j19" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="10" id="jil-CE-Sxw"/>
-                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="QXn-nj-m6C" secondAttribute="bottom" id="sBv-YH-oov"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="53" y="375"/>
-        </scene>
-    </scenes>
-    <resources>
-        <image name="bg" width="768" height="1024"/>
-        <image name="ground" width="768" height="164"/>
-        <image name="player" width="356" height="475"/>
-    </resources>
+    <scenes/>
 </document>
