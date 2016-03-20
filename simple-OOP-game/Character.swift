@@ -24,10 +24,24 @@ class Character {
         }
     }
     
+    var isAlive: Bool {
+        get {
+            if hp <= 0 {
+                return false
+            } else {
+                return true
+            }
+        }
+    }
+    
     init(startingHp: Int, attackPwr: Int) {
         self._hp = startingHp
         self._attackPwr = attackPwr
     }
     
-    
+    func attemptAttack(attackPwr: Int) -> Bool {
+        self._hp -= attackPwr
+        
+        return true
+    }
 }
