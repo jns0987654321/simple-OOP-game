@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Enemy: Player{
+class Enemy: Character{
     var loot: [String] {
         return ["Rusty Dagger", "Cracked Buckler"]
     }

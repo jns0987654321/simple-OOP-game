@@ -23,6 +23,10 @@ class Player: Character {
         return _inventory
     }
     
+    func addItemToInventory(item: String) {
+        _inventory.append(item)
+    }
+    
     //init for inherited class
     convenience init(name: String, hp: Int, attackPwr: Int){
         //init for parent class
